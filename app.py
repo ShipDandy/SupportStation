@@ -121,7 +121,7 @@ dailySchedule = BackgroundScheduler()
 dailySchedule.add_job(runscheduledDailyReport, "cron", hour=22, timezone="US/Central")
 dailySchedule.start()
 
-if __name__ == "__main__":
-    app.run()
+# if __name__ == "__main__":
+#     app.run()
 
-# app.run(port=5000, debug=True, use_reloader=False)
+app.run(port=5000, debug=True, use_reloader=False)
