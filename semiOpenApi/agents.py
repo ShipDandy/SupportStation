@@ -57,7 +57,7 @@ def list_agents_in_db():
     result2 = result.fetchall()
 
     for each in result2:
-        agent_list.append({each[1]: {"id":each[0]}})
+        agent_list.append({each[1]: {"id":each[0], "agentEmail": each[2]}})
 
     connection.commit()
     connection.close()
