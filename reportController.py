@@ -31,9 +31,10 @@ def runDailyReport(targetDay):
 
 
 def scheduledDailyReport():
-    """run report for current day"""
-    todayTheDayToday = str(datetime.datetime.now(tz=pytz.timezone("US/Central")).date())
+    """run scheduled report, to accommodate for ZenDesk's time delay to case completion we are going to query for the previous day."""
+    # todayTheDayToday = str(datetime.datetime.now(tz=pytz.timezone("US/Central")).date())
+    yesterdayTheDay = str((datetime.datetime.now(tz=pytz.timezone("US/Central")) - datetime.timedelta(days=1)).date())
     try:
-        runDailyReport(todayTheDayToday)
+        runDailyReport(yesterdayTheDay)
     except Exception:
         return "log it"
