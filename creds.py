@@ -1,4 +1,4 @@
-zdc_headers = {"Authorization": "Bearer kB3ZOwBIrdYVXalyrsviDCwUdNzZWaEYNUFNDA2iTbQxkhikozJLBMF0QZMIcBXM", "Content-Type": "application/json", "Accept": "Application/Json"}
+zdc_headers = {"Authorization": "Bearer jH0cBAutzUiJ3r5HjaouQeqivWjffhJdxHJ6pKth1vMYzYPfWoiR40OWGDge9pKI", "Content-Type": "application/json", "Accept": "Application/Json"}
 
 zd_headers = {"Authorization": "Basic am9lLmJyb3dlckBzaGlwc3RhdGlvbi5jb206WmVicmEwMFNT", "Content-Type": "application/json", "Accept": "Application/Json"}
 
