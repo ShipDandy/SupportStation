@@ -11,7 +11,7 @@ idna==2.6
 itsdangerous==0.24
 Jinja2==2.10
 MarkupSafe==1.0
-paramiko==2.4.1
+paramiko==2.10.1
 pyasn1==0.4.2
 pycparser==2.18
 pyftpdlib==1.5.3
